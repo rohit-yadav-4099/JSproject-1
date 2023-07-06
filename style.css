@@ -1,0 +1,285 @@
+
+body{
+    background-color: #3D087B;
+}
+
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+    overflow-x: hidden;   
+}
+
+.clocklogo{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 140px;
+    margin-bottom: 20px;
+}
+
+.parentbox{
+    background-color: white;
+    height: 310px;
+    width: 550px;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 15px;
+    margin-left: 140px;
+}
+
+.line_1{
+    display: flex;
+}
+
+.line_2{
+    display: flex;   
+}
+
+.line_3{
+    display: flex;
+}
+
+.line_4{
+    display: flex;
+}
+
+select{
+    padding: 5px;
+    width: 260px;
+    color: #3D087B;
+    border-radius: 5px;
+    border: 2px solid;
+    border-color: silver;
+}
+
+label{
+    font-size: larger;
+    color: #3D087B;
+}
+
+.gap{
+    margin-right: 30px;
+}
+
+.nightimg{
+    height: 40px;
+}
+
+#select_1{
+    margin-left: 70px;
+}
+
+#select_2{
+    margin-left: 90px;
+}
+
+#select_3{
+    margin-left: 105px;
+}
+
+#select_4{
+    margin-left: 86px;
+}
+
+#box_1{
+    width: 560px;
+    height: 82px;
+    background-color: #6A419A;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    margin-left: 140px;
+    padding: 15px;  
+}
+
+#content_1{
+    color: white;
+    text-align: center;
+    margin: 0 auto; 
+}
+
+.parent_box_2{
+    display: flex;
+    margin-left: 140px;
+
+}
+
+.box_3{
+    width: 220px;
+    height: 85px;
+    background-color: #6A419A;
+    border-radius: 10px;
+    padding: 10px 15px 5px 15px;    
+}
+
+#text_t1{
+    color: #EC5BF9;
+}
+
+#text_t2{
+    color: #EC5BF9;
+}
+
+#text_t3{
+    color: #EC5BF9;
+}
+#text_t4{
+    color: #EC5BF9;
+}
+
+.setalarm{ 
+    width: 320px;
+    height: 40px;
+    color: white;
+    background-image: linear-gradient(to right, #8154EF, #F65DFE);
+    text-align: center;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: larger;
+    margin: 15px 10px 0px 0px;
+    transition: color 0.4s ease-in-out;
+}
+
+.setalarm:hover{
+    background-image: linear-gradient(to left, #8154EF, #F65DFE);    
+}
+
+.setalarm::before {  
+    content: "Set Alarm";
+  }
+  
+  .setalarm:hover::before {
+    
+    content: "Party time!";
+  }
+
+  .parent_box_3{
+    position: relative;
+    top: -680px;
+   left: 850px;
+  }
+
+.main_box_1{
+    display: flex;
+    width: 536px;
+    height: 130px;
+    background-color: white;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+     gap: 15px;
+     z-index: 3;
+}
+
+.position{
+    position: absolute;
+}
+
+#main_box_2{
+    width: 420px;
+    height: 130px;
+    background-color: white;
+    border-radius: 13px;
+    top: 16px;
+    left: 60px;
+    opacity: 60%;
+    z-index: 2;
+}
+
+#main_box_3{
+    width: 380px;
+    height: 130px;
+    background-color: white;
+    border-radius: 13px;
+    top: 30px;
+    left: 80px;
+    opacity: 20%;
+    z-index: 1;   
+}
+
+
+.hour{
+    width: 80px;
+    height: 90px;
+    background-color: #F6E2FF;
+    text-align: center;
+}
+
+.minute{
+    width: 80px;
+    height: 90px;
+    background-color: #F6E2FF;
+    text-align: center;
+}
+
+.second{
+    width: 82px;
+    height: 90px;
+    background-color: #F6E2FF;
+    text-align: center;
+}
+   
+.ampm{
+    width: 82px;
+    height: 90px;
+    background-image: linear-gradient(to top left, #8154EF, #F65DFE);
+    text-align: center;
+    
+}
+
+.timebottombox{
+    width: 540px;
+    height: 110px;
+    background-color: white;
+    position: relative;
+    top: -500px;
+    left: 850px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+#image{
+    position: relative;
+    top: -480px;
+    left: 850px;
+}
+
+#image1{
+    height: 350px;
+    width: 540px;
+    border-radius: 5px;
+}
+
+.timetext{
+    color: #54258A;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.point{
+    font-size: 40px;
+    color: #54258A;
+}
+
+.clocktext{
+    color: #9A31C9;
+}
+
+.clocktext1{
+    color: white;
+    margin-top: 32px;
+}
+
+.bottomboxtext{
+    color: #8E53F0;
+}
+
+.verticalline{
+    font-size: 40px;
+    color: #bab7b7; 
+    margin: 2px 0px 3px 15px;
+}
+
+

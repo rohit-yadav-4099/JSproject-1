@@ -1,0 +1,433 @@
+
+
+@media only screen and (max-width: 1000px) and (min-width: 600px){
+   
+    html, body{
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+   
+.clocklogo{
+    margin-top: 20px;
+    margin-left: 110px;
+    margin-bottom: 20px;
+}
+
+.parentbox{
+    height: 310px;
+    width: 505px;
+    position: relative;
+    border-radius: 8px;
+    padding: 15px;
+    top: 310px;
+    left: -30px;
+}
+
+.gap{
+    margin-right: 25px;
+}
+
+select{
+    padding: 5px;
+    width: 230px;
+}
+
+#select_1{
+    margin-left: 60px;
+}
+
+#select_2{
+    margin-left: 80px;
+}
+
+#select_3{
+    margin-left: 95px;
+}
+
+#select_4{
+    margin-left: 76px;
+}
+
+.verticalline{
+    font-size: 25px;
+    margin: 10px 0px 10px 10px;
+}
+
+
+#box_1{
+    width: 505px;
+    height: 82px;
+    position: relative;
+    background-color: #6A419A;
+    border-radius: 8px;
+    top: 665px;
+    left: -30px;
+    padding: 15px;
+  
+}
+
+.parent_box_2{
+    display: flex;
+    position: relative;
+    top: 660px;
+    left: -30px;   
+}
+
+.parent_box_3{
+    position: relative;
+    top: -580px;
+   left: 110px;
+  }
+
+  .timebottombox{
+    width: 530px;
+    height: 110px;
+    background-color: white;
+    text-align: center;
+    padding: 5px;
+    border-radius: 8px;
+    position: relative;
+    top: -400px;
+    left: 110px;
+}
+
+#image{
+    position: relative;
+    top: -30px;
+    left: 110px;
+}
+
+#image1{
+    height: 340px;
+    width: 530px;
+    border-radius: 5px;
+}
+
+.box_3{
+    width: 200px;
+    height: 80px;
+    background-color: #6A419A;
+    border-radius: 10px;
+    padding: 10px 15px 5px 15px;
+    
+}
+
+.setalarm{
+    color: white;
+    width: 290px;
+    height: 40px;
+    background-image: linear-gradient(to right, #8154EF, #F65DFE);
+    text-align: center;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-top: 13px;
+    font-weight: bold;
+    font-size: larger;
+    transition: color 0.3s ease-in-out;
+}
+    
+}
+@media only screen and (max-width: 650px) and (min-width: 200px){
+   
+    html, body{
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+   
+.clocklogo{
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+
+.parentbox{
+    height: 280px;
+    width: 285px;
+    position: relative;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 0;
+    margin-left: 0;
+    top: 240px;
+    left: 28px;
+}
+
+.gap{
+    margin-right: 10px;
+}
+
+label{
+    font-size: medium;
+    color: #3D087B;
+}
+
+#wake_timing{
+    height: 25px;
+}
+
+#lunch_timing{
+    height: 25px;
+}
+
+#nap_timing{
+    height: 25px;
+}
+
+#night_timing{
+    height: 30px;
+    width: 25px;
+}
+
+select{
+    padding: 5px;
+    width: 115px;
+    border-color: silver;
+    color: #3D087B;
+}
+
+#select_1{
+    margin-left: 10px;
+}
+
+#select_2{
+    margin-left: 27px;
+}
+
+#select_3{
+    margin-left: 40px;
+}
+
+#select_4{
+    margin-left: 30px;
+}
+
+.verticalline{
+    font-size: 25px;
+    margin: 10px 0px 10px 10px;
+}
+
+#box_1{
+    width: 275px;
+    height: 50px;
+    background-color: #6A419A;
+    border-radius: 8px;
+    margin-bottom: 0;
+    margin-left: 0;
+    position: relative;
+    top: 480px;
+    left: 30px;
+    padding: 15px;
+  
+}
+
+#content_1{
+    color: white;
+    text-align: center;
+    margin: 0 auto; 
+    font-size: large;
+}
+
+.parent_box_3{
+    position: relative;
+    top: -475px;
+   left: 25px;
+  }
+
+  .main_box_1{
+    width: 310px;
+    height: 110px;
+    background-color: white;
+    border-radius: 8px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    z-index: 3;
+}
+
+.position{
+    position: absolute;
+}
+
+#main_box_2{
+    width: 270px;
+    height: 100px;
+    background-color: white;
+    border-radius: 13px;
+    top: 20px;
+    left: 20px;
+    opacity: 60%;
+    z-index: 2;
+}
+
+#main_box_3{
+    width: 228px;
+    height: 100px;
+    background-color: white;
+    border-radius: 13px;
+    top: 30px;
+    left: 40px;
+    opacity: 20%;
+    z-index: 1;
+    
+}
+
+.hour{
+    width: 50px;
+    height: 70px;
+    background-color: #F6E2FF;
+    text-align: center;
+}
+
+.minute{
+    width: 50px;
+    height: 70px;
+    background-color: #F6E2FF;
+    text-align: center;
+}
+
+.second{
+    width: 52px;
+    height: 70px;
+    background-color: #F6E2FF;
+    text-align: center;
+}
+   
+.ampm{
+    width: 52px;
+    height: 70px;
+    text-align: center;
+    background-image: linear-gradient(to top left, #8154EF, #F65DFE);   
+}
+
+.timetext{
+    color: #54258A;
+    font-size: small;
+    font-weight: bold;
+}
+
+.clocktext{
+    color: #9A31C9;
+    font-size: medium;
+}
+
+.clocktext1{
+    color: white;
+    margin-top: 32px;
+    font-size: large;
+}
+
+
+  .timebottombox{
+    width: 295px;
+    height: 70px;
+    background-color: white;
+    text-align: center;
+    padding: 5px;
+    border-radius: 8px;
+    position: relative;
+    top: -330px;
+    left: 28px;
+}
+
+.bottomboxtext{
+    color: #8E53F0;
+    font-size: large;
+}
+
+#image{
+    position: relative;
+    top: 10px;
+    left: 30px;
+}
+
+#image1{
+    height: 210px;
+    width: 300px;
+}
+
+.box_3{
+    width: 160px;
+    height: 80px;
+    background-color: #6A419A;
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+    
+}
+
+#text_t1{
+    color: #EC5BF9;
+    font-size: small;
+}
+
+#text_t2{
+    color: #EC5BF9;
+    font-size: small;
+}
+
+#text_t3{
+    color: #EC5BF9;
+    font-size: small;
+}
+#text_t4{
+    color: #EC5BF9;
+    font-size: small;
+}
+
+.parent_box_2{
+    display: flex;
+    margin-left: 0;
+    position: relative;
+    top: 490px;
+    left: 30px;
+    
+}
+
+.setalarm{
+    color: white;
+    width: 110px;
+    height: 40px;
+    background-image: linear-gradient(to right, #8154EF, #F65DFE);
+    text-align: center;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-top: 13px;
+    font-weight: bold;
+    font-size: large;
+    transition: color 0.3s ease-in-out;
+}
+
+#eveningedit{
+    height: 200px;
+    width: 300px;
+    position: relative;
+    top: 5px;
+}
+
+#morningedit{
+    height: 200px;
+    width: 300px;
+    position: relative;
+    top: 5px;
+}
+
+#afternoonedit{
+    height: 200px;
+    width: 300px;
+    position: relative;
+    top: 5px;
+}
+
+#nightedit{
+    height: 200px;
+    width: 300px;
+    position: relative;
+    top: 5px;
+}
+}
