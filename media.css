@@ -5,9 +5,7 @@
     html, body{
         margin: 0;
         padding: 0;
-        height: 129%;
-        overflow-y: auto;
-        overflow-x: hidden;
+        height: 130%;
     }
    
 .clocklogo{
@@ -18,12 +16,12 @@
 
 .parentbox{
     height: 310px;
-    width: 505px;
+    width:600px;
     position: relative;
     border-radius: 8px;
     padding: 15px;
-    top: 310px;
-    left: -30px;
+    top: 330px;
+    left: -40px;
 }
 
 .gap{
@@ -58,32 +56,36 @@ select{
 
 
 #box_1{
-    width: 505px;
+    width: 600px;
     height: 82px;
     position: relative;
     background-color: #6A419A;
     border-radius: 8px;
-    top: 665px;
-    left: -30px;
+    top: 700px;
+    left: -40px;
     padding: 15px;
   
 }
+.main_box_1{
+    width: 600px;
+}
 
 .parent_box_2{
+    width: 600px;
     display: flex;
     position: relative;
-    top: 660px;
-    left: -30px;   
+    top: 700px;
+    left: -40px;   
 }
 
 .parent_box_3{
-    position: relative;
+    width: 600px;
     top: -580px;
    left: 110px;
   }
 
   .timebottombox{
-    width: 530px;
+    width: 600px;
     height: 110px;
     background-color: white;
     text-align: center;
@@ -95,33 +97,33 @@ select{
 }
 
 #image{
+    width: 600px;
     position: relative;
     top: -30px;
     left: 110px;
 }
 
 #image1{
-    height: 340px;
-    width: 530px;
+    height: 300px;
+    width: 600px;
     border-radius: 5px;
 }
 
 .box_3{
-    width: 200px;
-    height: 80px;
+    width: 500px;
+    height: 100px;
     background-color: #6A419A;
     border-radius: 10px;
-    padding: 10px 15px 5px 15px;
+    padding: 5px 5px 5px 5px;
     
 }
 
 .setalarm{
     color: white;
-    width: 290px;
+    width: 300px;
     height: 40px;
     background-image: linear-gradient(to right, #8154EF, #F65DFE);
     text-align: center;
-    border-radius: 5px;
     margin-right: 10px;
     margin-top: 13px;
     font-weight: bold;
@@ -133,10 +135,10 @@ select{
 @media only screen and (max-width: 700px) and (min-width: 300px){
    
     html, body{
+        width: 100%;
         margin: 0;
         padding: 0;
-        height: 120%;
-        overflow-y: auto;
+        height: 123%;
         overflow-x: hidden;
     }
    
