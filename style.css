@@ -4,11 +4,10 @@ body{
 }
 
 html, body{
-   
+    width: 600px;
+    height: 100%;
     margin: 0;
     padding: 0;
-    overflow-y: hidden;
-    overflow-x: hidden;   
 }
 
 .clocklogo{
@@ -19,9 +18,9 @@ html, body{
 }
 
 .parentbox{
-    background-color: white;
     height: 310px;
     width: 550px;
+    background-color: white;
     border-radius: 8px;
     padding: 20px;
     margin-bottom: 15px;
@@ -105,11 +104,11 @@ label{
 }
 
 .box_3{
-    width: 220px;
-    height: 85px;
+    width: 300px;
+    height: 100px;
     background-color: #6A419A;
     border-radius: 10px;
-    padding: 10px 15px 5px 15px;    
+    padding: 5px 0px 0px 10px;    
 }
 
 #text_t1{
@@ -128,7 +127,7 @@ label{
 }
 
 .setalarm{ 
-    width: 320px;
+    width: 250px;
     height: 40px;
     color: white;
     background-image: linear-gradient(to right, #8154EF, #F65DFE);
@@ -167,8 +166,8 @@ label{
     border-radius: 8px;
     align-items: center;
     justify-content: center;
-     gap: 15px;
-     z-index: 3;
+    gap: 15px;
+    z-index: 3;
 }
 
 .position{
@@ -281,5 +280,8 @@ label{
     color: #bab7b7; 
     margin: 2px 0px 3px 15px;
 }
+
+
+
 
 
