@@ -5,7 +5,7 @@
     html, body{
         margin: 0;
         padding: 0;
-        height: 130%;
+        height: 132%;
     }
    
 .clocklogo{
@@ -61,31 +61,31 @@ select{
     position: relative;
     background-color: #6A419A;
     border-radius: 8px;
-    top: 700px;
+    top: 750px;
     left: -40px;
     padding: 15px;
   
 }
 .main_box_1{
-    width: 600px;
+    width: 630px;
 }
 
 .parent_box_2{
-    width: 600px;
+    width: 630px;
     display: flex;
     position: relative;
-    top: 700px;
+    top: 750px;
     left: -40px;   
 }
 
 .parent_box_3{
-    width: 600px;
+    width: 630px;
     top: -580px;
-   left: 110px;
+   left: 100px;
   }
 
   .timebottombox{
-    width: 600px;
+    width: 620px;
     height: 110px;
     background-color: white;
     text-align: center;
@@ -93,20 +93,32 @@ select{
     border-radius: 8px;
     position: relative;
     top: -400px;
-    left: 110px;
+    left: 100px;
 }
 
 #image{
     width: 600px;
     position: relative;
     top: -30px;
-    left: 110px;
+    left: 100px;
 }
 
 #image1{
     height: 300px;
     width: 600px;
     border-radius: 5px;
+}
+#morningedit{
+    width: 630px;
+}
+#afternoonedit{
+    width: 630px;
+}
+#eveningedit{
+    width: 630px;
+}
+#nightedit{
+    width: 630px;
 }
 
 .box_3{
@@ -144,7 +156,7 @@ select{
    
 .clocklogo{
     margin-top: 20px;
-    margin-left: 25px;
+    margin-left: 35px;
     margin-bottom: 20px;
 }
 
@@ -157,7 +169,7 @@ select{
     margin-bottom: 0;
     margin-left: 0;
     top: 240px;
-    left: 28px;
+    left: 40px;
 }
 
 .gap{
@@ -223,7 +235,7 @@ select{
     margin-left: 0;
     position: relative;
     top: 480px;
-    left: 30px;
+    left: 40px;
     padding: 15px;
   
 }
@@ -238,7 +250,7 @@ select{
 .parent_box_3{
     position: relative;
     top: -475px;
-   left: 25px;
+   left: 40px;
   }
 
   .main_box_1{
@@ -335,7 +347,7 @@ select{
     border-radius: 8px;
     position: relative;
     top: -330px;
-    left: 28px;
+    left: 40px;
 }
 
 .bottomboxtext{
@@ -346,7 +358,7 @@ select{
 #image{
     position: relative;
     top: 10px;
-    left: 30px;
+    left: 40px;
 }
 
 #image1{
@@ -387,7 +399,7 @@ select{
     margin-left: 0;
     position: relative;
     top: 490px;
-    left: 30px;
+    left: 40px;
     
 }
 
