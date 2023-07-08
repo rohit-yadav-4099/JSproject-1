@@ -98,13 +98,14 @@ label{
 }
 
 .parent_box_2{
+    width: 580px;
     display: flex;
     margin-left: 140px;
 
 }
 
 .box_3{
-    width: 300px;
+    width: 350px;
     height: 100px;
     background-color: #6A419A;
     border-radius: 10px;
@@ -127,7 +128,7 @@ label{
 }
 
 .setalarm{ 
-    width: 250px;
+    width: 320px;
     height: 40px;
     color: white;
     background-image: linear-gradient(to right, #8154EF, #F65DFE);
@@ -280,8 +281,5 @@ label{
     color: #bab7b7; 
     margin: 2px 0px 3px 15px;
 }
-
-
-
 
 
