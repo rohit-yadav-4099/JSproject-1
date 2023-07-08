@@ -1,5 +1,4 @@
 
-
 @media only screen and (max-width: 1000px) and (min-width: 700px){
    
     html, body{
@@ -61,7 +60,7 @@ select{
     position: relative;
     background-color: #6A419A;
     border-radius: 8px;
-    top: 700px;
+    top: 750px;
     left: -40px;
     padding: 15px;
   
@@ -74,7 +73,7 @@ select{
     width: 600px;
     display: flex;
     position: relative;
-    top: 700px;
+    top: 750px;
     left: -40px;   
 }
 
@@ -97,18 +96,18 @@ select{
 }
 
 #image{
-    width: 600px;
+    width: 630px;
     position: relative;
     top: -20px;
     left: 100px;
 }
 
 #image1{
-    height: 300px;
-    width: 600px;
+    height: 400px;
+    width: 630px;
     border-radius: 5px;
 }
-/* #morningedit{
+#morningedit{
     width: 630px;
     
 }
@@ -120,7 +119,7 @@ select{
 }
 #nightedit{
     width: 630px;
-} */
+}
 
 .box_3{
     width: 630px;
